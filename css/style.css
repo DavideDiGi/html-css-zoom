@@ -105,17 +105,40 @@ margin: auto;
 
 .flexed .container, .flexed .box{
     background-color: red;
-    width: 15%;
+    width: 20%;
     height: 100%;
+}
+.mic-icon{
+    padding: 2px;
+    padding-top: 10px;
     position: relative;
 }
-.icon{
+.mic-icon i{
     font-size: 24px;   
-    color: blue;
+    color: white;
+    padding-left: 10px;
+}
+.mic-icon span{
+    font-size: 14px;
+    color: white;
+    padding-left: 5px;
+
+}    
+.arrow i{
+    font-size: 11px;
+    display: inline-block;
     position: absolute;
-    top: 50%;
+    top: 25px;
+    right: 0;
+    color: white;
+}
+.mic.container *{
+    /* color: blue; */
+    /* position: absolute;
+    
+    bottom: 50%;
     right: 50%;
-    transform: translate(-50% -50%);
+    transform: translate(-50% -50%); */
 }
 
 /* .{
